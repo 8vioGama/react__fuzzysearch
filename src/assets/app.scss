@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+}
+
+.wrapper {
+  max-width: 500px;
+  margin: auto;
+}
+
+.fuzzySearch {
+  margin: 4em 0;
+}
+
+.input-container {
+  margin: 1em 0 2em;
+
+  input {
+    padding: 1em 1em .2em 0;
+    font-size: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    border-bottom: 2px solid #ebebeb;
+    transition: all .3s ease;
+
+    &:focus {
+      outline: none;
+      border-color: #f04f23;
+    }
+  }
+}
+
+table, {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ebebeb;
+  padding: .5em;
+  width: 33.33%;
+  text-align: left;
+}
